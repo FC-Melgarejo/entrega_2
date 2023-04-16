@@ -1,0 +1,32 @@
+.cart-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .cart-widget:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .cart-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .cart-icon > box-icon {
+    color: #333;
+    font-size: 22px;
+  }
+  
